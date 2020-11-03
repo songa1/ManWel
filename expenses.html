@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Expenses Manager</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- bootstrap link -->
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- js -->
+
+	<script src="https://oss.maxsdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxsdn.com/respond/1.4.2/respond.min.js"></script>
+
+<![endif]-->
+</head>
+<body style="background-color: #2705e429;">
+	<div class="container">
+		
+		<div class="row" >
+			<nav class="nav navbar">
+				<h1 class="navbar-nav custom-name col-md-4" align="center"><a href="" class="custom-name">ManWel</a></h1>
+				<ul class="nav navbar-nav navbar-right list-group nav-tabs">
+					<li><a href="dashboard.html" class="active">Dashboard</a></li>
+					<li><a href="in-view.html" class="">Income</a></li>
+					<li><a href="expenses-view.html" class="">Expenses</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="row">
+			<ol class="breadcrumb" style="background-color: #032d4c;">
+				<li>Dashboard</li>
+				<li class="active">Expenses</li>
+			</ol>
+		</div>
+		<div class="row">
+			<div class="row">
+				<div class="cont-1 col-md-3">
+					<div class="list-unstyled list-group">
+						<a class="list-group-item" href="summary.html">Summary</a>
+						<a class="list-group-item" href="income.html">Add income</a>
+						<a class="list-group-item active" href="expenses.html">Add Expenses</a>
+						<hr>
+						<a class="list-group-item" href="profile.html">Profile</a>
+						<a class="list-group-item" href="">Settings</a>
+						<a class="list-group-item" href="faqs.html">FAQs<span class="badge">?</span></a>
+					</div>
+				</div>
+				<div class="cont-2 col-md-8">
+
+					<!-- Content place -->
+					<div class="breadcrumb" style="background-color: #032d4c;">Expenses</div>
+					<div class="table-responsive">
+					<table class="table table-bordered">
+						<div class="row">
+						<div class="col-md-12">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class=" col-md-10">
+										<input type="search" name="search" class="form-control" placeholder="Search any record...">
+									</div>
+									<div class="col-md-2" style="margin-bottom: 15px;">
+										<button class="btn btn-primary">Go</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						</div>
+						<thead>
+							<th>Date</th>
+							<th>Amount</th>
+							<th>Description</th>
+							<th>Comment</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>11-02-2019</td>
+								<td>507800</td>
+								<td>From Sam for salary</td>
+								<td>I don't regret</td>
+
+							</tr>
+							<tr>
+								<td>12-04-2020</td>
+								<td>589000</td>
+								<td>From K for salary and for other spendings and shopping</td>
+								<td>I don't regret</td>
+							</tr>
+							<tr>
+								<td>14-01-2019</td>
+								<td>500000</td>
+								<td>From Boss for salary</td>
+								<td>I don't regret</td>
+							</tr>
+							<tr>
+								<td>11-02-2016</td>
+								<td>10000</td>
+								<td>From Rit for salary</td>
+								<td>I don't regret</td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
+					<div class="breadcrumb" style="background-color: #032d4c;margin-top: 15px;">Add new expenses</div>
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="control-label col-sm-2">Date:</label>
+							<div class="col-sm-10">
+								<input type="date" name="date" class="form-control" placeholder="Date">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2">Amount:</label>
+							<div class="col-sm-10">
+								<input type="number" name="amount" class="form-control" placeholder="Amount in numbers">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2">Description:</label>
+							<div class="col-sm-10">
+								<input type="text" name="dascription" class="form-control" placeholder="Example: source of income or purpose">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2">Comment:</label>
+							<div class="col-sm-10">
+								<input type="text" name="Comment" class="form-control" placeholder="I regret or I don't">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-10 col-sm-offset-2">
+								<input type="submit" name="submit" value="Add" class="btn btn-primary">
+							</div>
+						</div>
+					</form>
+
+				</div>
+				
+			</div>
+			<div class="row " style="background-color: #032d4c;margin-top: 15px; padding-top: 10px; padding-bottom: 10px;border-top-right-radius:10px;border-top-left-radius: 10px;">
+			<div class="">
+				<select class="pull-left drop-custom">
+					<option><a href="#" class="dropdown-menu">Privacy Policy</a></option>
+					<option><a href="#" class="list-unstyled list-group-item">Terms & conditions</a></option>
+					<option><a href="#" class="list-unstyled list-group-item">About us</a></option>
+				</select>
+			</div>
+			<div class="pull-right custom-link">
+				<p style="color: #fff;padding: 10px;">&copy;<a href="https://www.achille-me.tk" target="_blank">ManWel</a></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- js2 -->
+
+	<script src="htps://ajax.googleapis.com/libs/jquery/1.11.3/jquery.min/js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

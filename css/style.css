@@ -1,0 +1,44 @@
+body {
+	background-color: #2705e429;
+}
+.breadcrumb {
+	text-align: center;
+	color: #ffe5e5;
+}
+
+.cont-2 {
+	border: 1px solid #032d4c;
+	padding: 10px;
+}
+.custom-link a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+.custom-link a:hover {
+	color: grey;
+	text-decoration: none;
+}
+.custom-name {
+	color:;
+	font-size: px;
+	text-align: left;
+	text-decoration: none;
+}
+.custom-name:hover {
+	text-decoration: none;
+}
+.drop-custom {
+	padding: 10px;
+	background-color: inherit;
+	color: #fff;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-left: 5px;
+}
+.drop-custom option {
+	padding: 10px;
+	background-color: #032d4c;
+}
